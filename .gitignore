@@ -1,0 +1,20 @@
+# Editor and system files
+.DS_Store
+Thumbs.db
+
+# Node
+node_modules/
+
+# Logs
+logs/
+*.log
+
+# IDE
+.vscode/
+.idea/
+
+# PHPstorm
+/.phpstorm.meta.php
+
+# XAMPP
+tmp/
