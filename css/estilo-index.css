@@ -1,6 +1,7 @@
 body{
     padding: 0;
     margin: 0;
+    background-color: black;
 }
 
 a{
@@ -43,4 +44,42 @@ a{
 
 .ajuste{
     margin-left: -1050px;
+}
+
+.main-container{
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 1050px;
+    background-color: black;
+}
+
+.card-container{
+    width: 80%;
+    height: 900px;
+    background-color: #272626;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    overflow-y: auto;
+}
+
+.imagem-fundo img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+   
+}
+
+/* Background repetido com o logo 246px */
+.imagem-fundo img{ display: none; } /* esconde o <img> se existir para que o background tiled fique visível */
+.imagem-fundo{
+    /* caminho relativo ao arquivo CSS (css/ -> ../imagens-logo/) */
+    background-image: url("../imagens-logo/resumo-202-papel-de-parede-de-fundo-com-gradiente.jpg");
+    background-repeat: repeat; /* repete tanto em X quanto Y */
+
+    background-position: 0 0;
 }

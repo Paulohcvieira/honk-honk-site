@@ -18,7 +18,7 @@
   <div class="container navcolor">
     <a class="navbar-brand" href="#">
       <img src="imagens-logo/LOGO 100PX.png" alt="Bootstrap">
-    <p1 class="titulo">Honk</p1>
+    <p1 class="titulo"></p1>
     </a>
   </div>
   <div>
@@ -27,7 +27,23 @@
   </div>
 </nav>
 
+<div class="main-container imagem-fundo">
 
+  <div class="card-container">
+<div class="card" style="width: 18rem;">
+  <img src="..." class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">$POST_TITLE</h5>
+    <p class="card-text">
+      <?php
+      include 'config/select.php';
+      ?>
+    </p>
+    <a href="#" class="btn btn-primary">Noticia</a>
+  </div>
+</div>
+</div>
+</div>
 </body>
 
 </html>
